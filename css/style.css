@@ -1,0 +1,35 @@
+@import url(fonts.css);
+/* Start Navbar */
+body {
+  background-image: url("../image/banner2.jpg");
+  height: 1200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  body .site-header .main-menu .navbar .navbar-nav .nav-link {
+    color: #1d1d18;
+    font: normal 600 15px "Iranian";
+    padding: 0 1.3rem; }
+  body .site-header .main-menu .navbar .search-input {
+    border: 1px solid black;
+    border-radius: 0 40px 40px 0; }
+  body .site-header .main-menu .navbar .search-span {
+    border: 1px solid black;
+    background: linear-gradient(90deg, #1d1d18 0%, #1d1d18 100%);
+    border-radius: 50% 0 0 50%; }
+  body .site-header .main-menu .show-menu {
+    width: 300px;
+    background: linear-gradient(0deg, #f0daa4 0%, #ffdf6c 40%, #1d1d18 100%);
+    height: 100%;
+    position: fixed;
+    top: 5rem;
+    right: 0; }
+
+/* End Navbar */
+/* Start Banner Area */
+.banner-area .banner-image {
+  padding: 7rem 2rem; }
+
+/* End Banner Area */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+@import url(fonts.css);
+
+@import "variables";
+
+
+
+/* Start Navbar */
+body {
+        background-image: url("../image/banner2.jpg");
+        height: 1200px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    .site-header {
+        .main-menu {
+            .navbar {
+                .navbar-nav {
+                    .nav-link {
+                        color: $color3;
+                        font: normal 600 15px $iranian;
+                        padding: 0 1.3rem;
+                    }
+                }
+
+                .search-input {
+                    border: 1px solid black;
+                    border-radius: 0 40px 40px 0;
+
+                }
+
+                .search-span {
+                    border: 1px solid black;
+                    background: linear-gradient(90deg, $color3 0%, $color3 100%);
+                    border-radius: 50% 0 0 50%;
+                }
+            }
+            .show-menu {
+                width: 300px;
+                background: linear-gradient(0deg,$color2 0%,$color5 40%,$color3 100%);
+                height: 100%;
+                position: fixed;
+                top: 5rem;
+                right: 0;
+
+            }
+        }
+    }
+}
+
+/* End Navbar */
+
+
+/* Start Banner Area */
+
+.banner-area {
+    .banner-image {
+        padding: 7rem 2rem;
+    }
+}
+
+/* End Banner Area */
+
