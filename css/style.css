@@ -1,6 +1,7 @@
 @import url(fonts.css);
 /* Start Navbar */
 body {
+  padding: 0;
   background-image: url("../image/banner2.jpg");
   height: 1200px;
   width: 100%;
